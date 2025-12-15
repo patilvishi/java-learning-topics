@@ -36,7 +36,7 @@ java ConcurrentMapIteratorDemo
 ```
 
 ## Diagram
-```md
+```mermaid
 flowchart LR
   A[Iterator created] --> B{Collection Type}
   B -->|ArrayList / HashMap| C[Fail-Fast -> ConcurrentModificationException]
