@@ -68,7 +68,7 @@ When size > threshold → Map resizes to double capacity.
 
 ```mermaid
 flowchart TD
-    A[Key] --> B[hashCode()]
+    A[Key] --> B[hashCode]
     B --> C[Hash Function]
     C --> D[Index Calculation]
     D --> E[Bucket]
