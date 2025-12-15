@@ -35,7 +35,8 @@ java FailSafeDemo
 java ConcurrentMapIteratorDemo
 ```
 
-# Diagram
+## Diagram
+```md
 flowchart LR
   A[Iterator created] --> B{Collection Type}
   B -->|ArrayList / HashMap| C[Fail-Fast -> ConcurrentModificationException]
